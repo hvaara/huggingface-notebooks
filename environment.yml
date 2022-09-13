@@ -1,0 +1,15 @@
+# To use:
+#   $ conda env create -f environment.yml
+#   $ conda activate huggingface
+name: huggingface
+dependencies:
+  - python=3.9
+  - pip
+  - pip:
+    - torch
+    - tensorflow
+    - pysoundfile
+    - librosa
+    - datasets
+    - transformers
+    - numpy
